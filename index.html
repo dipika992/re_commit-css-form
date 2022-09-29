@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>css_form</title>
+    </head>
+    <body>
+        <h1>Custom Alert</h1>
+        <form>
+            <h4>Name</h4>
+            <input type="text" placeholder="Enter your name">
+            <h4>Age</h4>
+            <input type="number" placeholder="Enter your age">
+            <h4>Email</h4>
+            <input type="email" placeholder="Enter your email">
+            <br>
+             <button type="submit">Submit</button>
+        </form>
+        
+        <img src="./htmlimg.png" style="height: 100%; width:110px; padding-left:13%; margin-top:3%">
+        <img src="./cssimg.png" style="height: 100%; width:80px; padding-left:2%; margin-top:3%">
+        <img src="./jsimage.png" style="height: 100%; width:110px; margin-left:-165px; margin-bottom:-5%">
+        <div class="alert success">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            <h5>Your registration was successfully!</h5>
+          </div>
+          <div class="alert warning">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            <h5>The field is not correct!</h5>
+          </div>
+          <div class="alert info">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            <h5>You need to fill out all the fields!</h5>
+          </div>
+          <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            <h5>You need to fill out all the fields!</h5>
+          </div>
+    </body>
+</html>
