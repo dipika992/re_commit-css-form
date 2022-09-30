@@ -1,11 +1,22 @@
-form{
-    margin-top: 5%;
+body{
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 input{
     border: none;
-    background-color: white;
+    background-color: transparent;
     border-bottom: 3px solid black;
+    width: 80%;
+}
+form{
+    margin-top: 5%;
+    background: rgba(231, 230, 230, 0.284);
+    opacity: 1;
     width: 50%;
+    height: 350px;
+    padding-top: 2%;
+    padding-left: 1%;
 }
 button{
     margin-top: 3%;
